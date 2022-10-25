@@ -1,0 +1,38 @@
+#selfieB{
+    border-radius: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+#camera{
+    border:turquoise solid 2px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+}
+
+img{
+    height:300px;
+    transition: transform .2s;
+}
+
+#photo1_image:hover{
+    transform: scale(1.25);
+    border-radius: 50px;
+}
+
+#photo2_image:hover{
+    transform: scale(1.25);
+    border-radius: 50px;
+}
+
+#photo3_image:hover{
+    transform: scale(1.25);
+    border-radius: 50px;
+}
+
+/*#cameraOuter{
+    background-image: url("Camera-background.jpeg");
+    width: 800px;
+    height: 600px;
+    margin-top:200px;
+}*/
